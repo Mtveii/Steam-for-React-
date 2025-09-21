@@ -1,0 +1,109 @@
+#q a {
+    margin: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+#nav {
+    width: 1040px;
+    height: 440px;
+    background: linear-gradient(180deg, #2B2F35 0%, #25282D 100%);
+    border-radius: 20px;
+    border-style: groove;
+    flex-direction: row;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 170px;
+}
+#q img {
+    width: 1140px;
+    height: 444px;
+
+
+
+}
+#q .button1 {
+    width: 485px;
+    height: 83px;
+    margin-top: 30px;
+    background: linear-gradient(90deg, #7BC74D 0%, #82CA77 100%);
+    border: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 10px;
+}
+#q .button2 {
+    width: 227px;
+    height: 83px;
+    background: var(--Color-2, rgba(57, 62, 70, 1));
+    border: none; 
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 30px;
+
+}
+#q .create {
+    font-family: Roboto;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: 0%;
+    text-decoration-skip-ink: auto;
+    color: white;
+}   
+#q .input {
+    width: 749px;
+    height: 61px;
+    background: rgba(96, 105, 118, 0.4);
+    border: none;          
+    border-radius: 5px;     
+    outline: none;         
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+#q {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background-image:
+        linear-gradient(to bottom,
+            rgba(24, 24, 44, 0.829),
+            rgba(20, 77, 20, 0.849)),
+        url('../Components/assets/1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    box-sizing: border-box;
+}
+#q h1 {
+    color: white;
+    font-size: 16px;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 0;
+    margin-bottom: 5px;
+    width: 749px;          
+    padding-left: 10px;    
+    box-sizing: border-box; 
+}
+#q  .inp {
+    display: block;
+    width: 749px;
+    margin-left: 20px;
+    margin-right: auto;
+}
+#q .nav1{
+    margin-left: 100px;
+}

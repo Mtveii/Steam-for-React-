@@ -1,0 +1,16 @@
+body{
+  background-color: aliceblue;
+}
+.App{
+  text-align: center;
+}
+#outlet {
+  text-align: center;
+
+}
+.q{
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  margin: 0 auto;
+}
